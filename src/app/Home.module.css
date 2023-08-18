@@ -1,0 +1,13 @@
+.section {
+  flex: 1 1 0%;
+}
+.section_title {
+  margin: 4rem 0 4rem;
+  flex: 1 1 0%;
+  font-size: 2rem;
+  color: #1664FF;
+}
+
+.hr {
+  padding: 1rem 0
+}

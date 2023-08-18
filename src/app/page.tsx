@@ -1,113 +1,141 @@
-import Image from 'next/image'
+import Image from "next/image";
+import styles from './Home.module.css';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="flex flex-col">
+      {/* Header 영역 */}
+      <header className="bg-blue-500">
+        <h1 className="text-white">제목</h1>
+        {/* Nav */}
+      </header>
+
+      {/* Main content 영역 */}
+      <div className="flex-grow flex justify-center">
+        <main className="flex w-full px-4 md:w-[720px] lg:w-[1000px] xl:w-[1140px] flex-col">
+
+          {/* Main content */}
+          <section className={styles.section}>
+            <div className="text-2x">안녕하세요.</div>
+            <div>프론트엔드 엔지니어 이명호입니다.</div>
+            <div>3년차 프론트엔드 엔지니어로 근무하고 있으며, 서비스 개발에 큰 관심을 가지고 있습니다.</div>
+            <div>지속적인 자기개발을 추구하는 성격으로, 최근에는 앱 개발에 관심이 생겨,</div>
+            <div>제 취미인 운동을 주제로 한 앱을 React Native로 개발하고 지속적으로 업데이트하고 있습니다.</div>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.section_title}>About Me</h2>
+            <article className="flex">
+              <aside className="w-1/4 bg-gray-300">
+                <Image
+                  src="/cat.jpg"
+                  alt="Profile"
+                  width={500}
+                  height={500}
+                />
+              </aside>
+              <div className="flex flex-col mx-4">
+                <div className="w-full px-4">
+                  이름 아이콘 <a href="mailto:sky85210@gmail.com">이명호</a>
+                </div>
+                <div className="w-full px-4">
+                  메일 아이콘 <a href="mailto:sky85210@gmail.com">sky85210@gmail.com</a>
+                </div>
+                <div className="w-full px-4">
+                  번호 아이콘
+                </div>
+                <div className="w-full px-4">
+                  블로그 아이콘 <a href="https://myung-ho.tistory.com/">https://myung-ho.tistory.com/</a>
+                </div>
+                <div className="w-full px-4">
+                  깃 아이콘 <a href="https://github.com/2myungho">https://github.com/2myungho</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.section_title}>Skill  ?</h2>
+            <article className="flex mb-8">
+              <aside className="w-1/4 text-2xl">
+                Front-end
+              </aside>
+              <div className="flex items-center w-full flex-wrap">
+                <div className="w-[25%]">React.js 3</div>
+                <div className="w-[25%]">Next.js 2</div>
+                <div className="w-[25%]">Vue.js 2</div>
+                <div className="w-[25%]">Javascript 3</div>
+                <div className="w-[25%]">Html / Css 3</div>
+                <div className="w-[25%]">React Native 2</div>
+              </div>
+            </article>
+            <hr className={styles.hr} />
+            <article className="flex mb-8">
+              <aside className="w-1/4 text-2xl">
+                Back-end
+              </aside>
+              <div className="flex items-center w-full flex-wrap">
+                <div className="w-[25%]">Node.js 2</div>
+                <div className="w-[25%]">Typescript 2</div>
+                <div className="w-[25%]">Express 2</div>
+                <div className="w-[25%]">Java 1</div>
+                <div className="w-[25%]">Spring Boot 1</div>
+              </div>
+            </article>
+            <hr className={styles.hr} />
+            <article className="flex mb-8">
+              <aside className="w-1/4 text-2xl">
+                ETC
+              </aside>
+              <div className="flex items-center w-full flex-wrap">
+                <div className="w-[25%]">Git</div>
+                <div className="w-[25%]">Jira</div>
+                <div className="w-[25%]">Confluence</div>
+                <div className="w-[25%]">AWS</div>
+                <div className="w-[25%]">Docker</div>
+                <div className="w-[25%]">Firebase</div>
+                <div className="w-[25%]">Zeplin</div>
+                <div className="w-[25%]">Figma</div>
+              </div>
+            </article>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.section_title}>Project</h2>
+            <article className="flex">
+              <aside className="w-1/4 bg-gray-300">
+                사이드바
+              </aside>
+              <div>ㅎㅇㅎㅇ</div>
+            </article>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.section_title}>Work Experience</h2>
+            <article className="flex">
+              <aside className="w-1/4 bg-gray-300">
+                사이드바
+              </aside>
+              <div>ㅎㅇㅎㅇ</div>
+            </article>
+          </section>
+
+          <section className={styles.section}>
+            <h2 className={styles.section_title}>Other Experience</h2>
+            <article className="flex">
+              <aside className="w-1/4 bg-gray-300">
+                사이드바
+              </aside>
+              <div>ㅎㅇㅎㅇ</div>
+            </article>
+          </section>
+        </main>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      {/* Footer 영역 */}
+      <footer className="bg-blue-500">
+        푸터
+      </footer>
+    </div>
+  );
 }
