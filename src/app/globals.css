@@ -48,3 +48,9 @@
 body {
   font-family: 'Pretendard-Medium', 'Noto Sans KR', sans-serif !important;
 }
+a {
+  color: #0687f0;
+}
+.date-color {
+  color: #76787A;
+}

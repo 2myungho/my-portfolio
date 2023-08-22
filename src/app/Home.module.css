@@ -1,11 +1,18 @@
 .section {
   flex: 1 1 0%;
 }
-.section_title {
-  margin: 4rem 0 4rem;
-  flex: 1 1 0%;
-  font-size: 2rem;
-  color: #1664FF;
+.sectionTitle {
+  margin: 5rem 0 3rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.bulletSquare {
+  height: 40px;
+  width: 6px;
+  background-color: #1664FF;
+  margin-right: 20px;
 }
 
 .hr {
