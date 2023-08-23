@@ -10,8 +10,8 @@ export default function WorkExperience() {
         <div className={styles.bulletSquare} />
         <h2 >Work Experience</h2>
       </div>
-      <article className="flex gap-x-20">
-        <aside className="w-1/4">
+      <article className="lg:flex gap-x-20">
+        <aside className="lg:w-1/4 w-2/5 lg:mb-0 mb-6 ">
           <Image
             src="/logo_brique.png"
             alt="BRIQUE"

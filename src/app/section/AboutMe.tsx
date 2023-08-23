@@ -10,8 +10,8 @@ export default function AboutMe() {
         <div className={styles.bulletSquare} />
         <h2 >About Me</h2>
       </div>
-      <article className="flex">
-        <aside className="w-1/4 bg-gray-300">
+      <article className="lg:flex" >
+        <aside className="w-2/4 mb-4 lg:w-1/4 lg:mb-0">
           <Image
             src="/cat.jpg"
             alt="Profile"
@@ -19,17 +19,17 @@ export default function AboutMe() {
             height={500}
           />
         </aside>
-        <div className="flex flex-col mx-4 gap-y-2">
-          <div className="w-full px-4">
+        <div className="flex flex-col lg:mx-4 gap-y-2">
+          <div className="w-full lg:px-4">
             Name: 이명호
           </div>
-          <div className="w-full px-4">
+          <div className="w-full lg:px-4">
             Mail: <a href="mailto:sky85210@gmail.com">sky85210@gmail.com</a>
           </div>
-          <div className="w-full px-4">
+          <div className="w-full lg:px-4">
             Dev Blog: <a href="https://myung-ho.tistory.com/">https://myung-ho.tistory.com/</a>
           </div>
-          <div className="w-full px-4">
+          <div className="w-full lg:px-4">
             Github: <a href="https://github.com/2myungho">https://github.com/2myungho</a>
           </div>
         </div>
