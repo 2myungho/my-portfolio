@@ -3,60 +3,67 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Pretendard-Medium';
+  font-family: "Pretendard-Medium";
   font-weight: 500;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+    format("woff");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Pretendard-SemiBold';
+  font-family: "Pretendard-SemiBold";
   font-weight: 600;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Pretendard-Bold';
+  font-family: "Pretendard-Bold";
   font-weight: 700;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Pretendard-ExtraBold';
+  font-family: "Pretendard-ExtraBold";
   font-weight: 800;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
+    format("woff");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Pretendard-Black';
+  font-family: "Pretendard-Black";
   font-weight: 900;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
+    format("woff");
   font-display: swap;
 }
 
 body {
-  font-family: 'Pretendard-Medium', 'Noto Sans KR', sans-serif !important;
+  font-family: "Pretendard-Medium", "Noto Sans KR", sans-serif !important;
 }
 a {
   color: #0687f0;
 }
 .date-color {
-  color: #76787A;
+  color: #76787a;
 }
-/* 
-@media screen and (max-width: 960px) {
-  body, html {
+
+@media screen and (max-width: 768px) {
+  body,
+  html {
     font-size: 14px;
   }
-} */
+}
