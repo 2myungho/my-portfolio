@@ -13,10 +13,11 @@ export default function AboutMe() {
       <article className="lg:flex" >
         <aside className="w-2/4 mb-4 lg:w-1/4 lg:mb-0">
           <Image
-            src="/cat.jpg"
+            src="/img/profile.jpg"
             alt="Profile"
             width={500}
             height={500}
+            className='rounded-md'
           />
         </aside>
         <div className="flex flex-col lg:mx-4 gap-y-2">

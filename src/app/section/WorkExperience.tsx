@@ -13,7 +13,7 @@ export default function WorkExperience() {
       <article className="lg:flex gap-x-20">
         <aside className="lg:w-1/4 w-2/5 lg:mb-0 mb-6 ">
           <Image
-            src="/logo_brique.png"
+            src="/img/logo_brique.png"
             alt="BRIQUE"
             width={500}
             height={500}

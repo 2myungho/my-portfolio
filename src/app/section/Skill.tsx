@@ -34,7 +34,7 @@ const ArticleDisplay = ({article, isHr= true}: ArticleDisplayProps) => {
   return (
     <>
       <article className="lg:flex mb-8">
-        <aside className="w-1/4 text-2xl font-semibold mb-4 lg:mb-0">
+        <aside className="w-full lg:w-1/4 text-2xl font-semibold mb-4 lg:mb-0">
             {article.title}
         </aside>
         <div className="flex items-center w-full flex-wrap">

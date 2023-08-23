@@ -17,7 +17,7 @@ export default function Home() {
 
       {/* Main content 영역 */}
       <div className="flex-grow flex justify-center py-20">
-        <main className="flex w-full px-4 md:w-[720px] lg:w-[1000px] xl:w-[1140px] flex-col">
+        <main className="flex w-full px-4 md:w-[720px] lg:w-[900px] xl:w-[1040px] flex-col">
 
           {/* Main content */}
           <Introduce />
