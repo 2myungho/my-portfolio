@@ -100,26 +100,27 @@ interface ArticleDisplayProps {
   isHr?: boolean;
 }
 
+const getLevelColor = (level: number) => {
+  switch (level) {
+    case 1:
+      return "bg-[#121721]";
+    case 2:
+      return "bg-[#A5A8AA]";
+    case 3:
+      return "bg-[#1664FF]";
+  }
+  return "";
+};
+
 const ArticleDisplay = ({ article, isHr = true }: ArticleDisplayProps) => {
-  const getLevelColor = (level: number) => {
-    switch (level) {
-      case 1:
-        return "#121721";
-      case 2:
-        return "#A5A8AA";
-      case 3:
-        return "#1664FF";
-    }
-    return "";
-  };
   const items = article.items.map((item, index) => (
     <div key={item} className="w-[33%] lg:w-[25%] flex items-center gap-x-2">
       {item}{" "}
       {article?.levels && (
         <div
-          className={`text-sm flex justify-center items-center text-white w-[1.2rem] h-[1.2rem] rounded-full bg-[${getLevelColor(
+          className={`text-sm flex justify-center items-center text-white w-[1.2rem] h-[1.2rem] rounded-full ${getLevelColor(
             article.levels[index]
-          )}]`}
+          )}`}
         >
           {article.levels[index]}
         </div>
@@ -156,7 +157,7 @@ export default function Skill() {
           <FaRegQuestionCircle
             size="1.5rem"
             color="#1664FF"
-            style={{ marginLeft: "1rem", cursor: "pointer" }}
+            className="ml-4 cursor-pointer"
           />
         </Tooltip>
       </div>

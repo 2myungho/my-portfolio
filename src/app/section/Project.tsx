@@ -113,7 +113,10 @@ export default function Project() {
           <br />
           <div className="lg:flex gap-x-10">
             <div className="w-full">
-              <div>포트폴리오 용도로 제작한 웹사이트입니다.</div>
+              <div>Nextjs 학습을 목적으로 제작한 포트폴리오 페이지입니다.</div>
+              <div>현재 보고 있는 웹사이트에 해당합니다.</div>
+              <div>반응형 디자인을 적용하여 다양한 디바이스에서도 원활하게 접근 가능합니다.</div>
+              <div></div>
               <br />
               <div>Git: <a href="https://github.com/2myungho/my-portfolio"> Git README </a></div>
               <div>Tech: React, Nextjs</div>
