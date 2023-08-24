@@ -91,8 +91,8 @@ export default function Project() {
               <div>디자이너 친구와 매주 목요일 저녁에 기획과 UI/UX 회의를 진행하고, Notion, Figma를 이용했습니다.</div>
               <div>APP Store와 Google Play에 배포 되었으며, 사용자 피드백을 받아 지속적인 업데이트 중입니다.</div>
               <br />
-              <div>IOS: <a href="" >App Store URL</a></div>
-              <div>Android: <a href="" >Google Play URL</a></div>
+              <div>IOS: <a href="https://apps.apple.com/kr/app/%ED%97%9B%EB%91%98-%EC%9A%B4%EB%8F%99-%EC%9D%8C%EC%84%B1-%ED%83%80%EC%9D%B4%EB%A8%B8/id6450903261" >App Store URL</a></div>
+              <div>Android: <a href="https://play.google.com/store/apps/details?id=com.hutdul&pcampaignid=web_share" >Google Play URL</a></div>
               <div>Git: Private</div>
               <div>Tech: React Native, TypeScript, Recoil, fireBase</div>
             </div>
