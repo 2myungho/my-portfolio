@@ -29,7 +29,7 @@ export function ImageSlider({images, imageHeight}: ImageSliderProps) {
       >
         {images.map((image, index) => (
             <div className={`flex-none w-full ${imageHeight} overflow-hidden`} key={index}>
-                <Image src={image} alt={`Image ${index + 1}`} width={500} height={500} />
+                <Image className='m-auto' src={image} alt={`Image ${index + 1}`} width={400} height={500} />
             </div>
         ))}
       </div>
