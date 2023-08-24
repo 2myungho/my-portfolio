@@ -52,7 +52,7 @@ export default function Project() {
     '/img/portfolio_1.png',
   ]
   const planitImages = [
-    '/img/planit_0.png',
+    '/img/planit_0_2.png',
     '/img/planit_1.png',
     '/img/planit_2.png',
     '/img/planit_3.png',

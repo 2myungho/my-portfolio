@@ -20,19 +20,22 @@ export default function AboutMe() {
             className='rounded-md'
           />
         </aside>
-        <div className="flex flex-col lg:mx-4 gap-y-2">
-          <div className="w-full lg:px-4">
-            Name: 이명호
+        <div className="lg:mx-4 flex flex-col justify-between lg:px-4 gap-y-8 lg:gap-y-0">
+          <div className='w-full flex flex-col gap-y-2'>
+            <div className="w-full">
+              Name: 이명호
+            </div>
+            <div className="w-full">
+              Mail: <a href="mailto:sky85210@gmail.com">sky85210@gmail.com</a>
+            </div>
+            <div className="w-full">
+              Dev Blog: <a href="https://myung-ho.tistory.com/">https://myung-ho.tistory.com/</a>
+            </div>
+            <div className="w-full">
+              Github: <a href="https://github.com/2myungho">https://github.com/2myungho</a>
+            </div>
           </div>
-          <div className="w-full lg:px-4">
-            Mail: <a href="mailto:sky85210@gmail.com">sky85210@gmail.com</a>
-          </div>
-          <div className="w-full lg:px-4">
-            Dev Blog: <a href="https://myung-ho.tistory.com/">https://myung-ho.tistory.com/</a>
-          </div>
-          <div className="w-full lg:px-4">
-            Github: <a href="https://github.com/2myungho">https://github.com/2myungho</a>
-          </div>
+          <div className='bg-[#E5E6E7] px-2 py-1 rounded-md'>문의 사항은 이메일로 연락 부탁드립니다.</div>
         </div>
       </article>
     </section>

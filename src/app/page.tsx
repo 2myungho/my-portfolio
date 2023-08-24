@@ -22,9 +22,9 @@ export default function Home() {
           {/* Main content */}
           <Introduce />
           <AboutMe />
-          <Skill />
-          <Project />
           <WorkExperience />
+          <Project />
+          <Skill />
           <OtherExperience />
         </main>
       </div>
