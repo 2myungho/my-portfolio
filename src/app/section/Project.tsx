@@ -28,7 +28,7 @@ export function ImageSlider({images, imageHeight}: ImageSliderProps) {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-            <div className={`flex-none w-full h-[${imageHeight}] overflow-hidden`} key={index}>
+            <div className={`flex-none w-full ${imageHeight} overflow-hidden`} key={index}>
                 <Image src={image} alt={`Image ${index + 1}`} width={500} height={500} />
             </div>
         ))}
@@ -73,7 +73,7 @@ export default function Project() {
       </div>
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={hutdulImages} imageHeight="400px" />
+          <ImageSlider images={hutdulImages} imageHeight="h-[400px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
@@ -103,7 +103,7 @@ export default function Project() {
 
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={portfoliImages} imageHeight="300px" />
+          <ImageSlider images={portfoliImages} imageHeight="h-[300px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
@@ -128,7 +128,7 @@ export default function Project() {
 
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={planitImages} imageHeight="300px" />
+          <ImageSlider images={planitImages} imageHeight="h-[300px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
@@ -161,7 +161,7 @@ export default function Project() {
 
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={coffeeLavitaImages} imageHeight="300px" />
+          <ImageSlider images={coffeeLavitaImages} imageHeight="h-[300px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
