@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { BsPhone } from "react-icons/bs";
 
 import styles from '../Home.module.css';
 
@@ -35,7 +36,7 @@ export default function AboutMe() {
               Github: <a href="https://github.com/2myungho">https://github.com/2myungho</a>
             </div>
           </div>
-          <div className='bg-[#E5E6E7] px-2 py-1 rounded-md'>문의 사항은 이메일로 연락 부탁드립니다.</div>
+          <div className='bg-[#E5E6E7] pl-2 pr-10 py-1 rounded-md flex items-center gap-x-1'><BsPhone />문의 사항은 이메일로 연락 부탁드립니다.</div>
         </div>
       </article>
     </section>
