@@ -11,7 +11,7 @@ export default function OtherExperience() {
       </div>
       <article className="mb-4">
         <h3 className="text-xl font-semibold">티스토리 개발 블로그</h3>
-        <div className="text-[#76787A]">2023.08 기준 일 평균 방문자 약150명</div>
+        <div className="text-[#76787A]">2023.08 기준 일 평균 방문자 약200명</div>
         <div className="text-[#76787A]">Link: <a href="https://myung-ho.tistory.com/">https://myung-ho.tistory.com/</a></div>
       </article>
       <article className="mb-4">
