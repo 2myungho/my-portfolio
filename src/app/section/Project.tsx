@@ -95,7 +95,7 @@ export default function Project() {
       </div>
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={rankImages} imageHeight="h-[400px]" />
+          <ImageSlider images={rankImages} imageHeight="h-[220px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
@@ -111,17 +111,25 @@ export default function Project() {
                 &quot;시청자 랭킹과 채팅 기록을 한눈에 파악해 보세요!&quot;
               </div>
               <div>
-                시청자 랭킹 확장 프로그램은 BJ 방송에 보다 많은 시청자를 노출하기 위해 개발되었으며, 이를 통해 시청자의 방송 참여를 높이는 목표로 개발되었습니다.
+                시청자 랭킹 확장 프로그램은 BJ 방송에 보다 많은 시청자를
+                노출하기 위해 개발되었으며, 이를 통해 시청자의 방송 참여를
+                높이는 목표로 개발되었습니다.
               </div>
               <br />
               <div>
-                아프리카TV에서 주최한 Extension개발 공모전에 참여한 프로젝트입니다.
+                아프리카TV에서 주최한 Extension개발 공모전에 참여한
+                프로젝트입니다.
               </div>
               <div>
-                React.js를 사용해 BJ, User, Mobile 화면을 개발했습니다. 제출을 위해 각 화면마다 별도의 프로젝트 빌드 파일이 필요했고, 이미지, 폰트, 스타일 등의 공통 리소스도 많이 사용되었습니다.
+                React.js를 사용해 BJ, User, Mobile 화면을 개발했습니다. 제출을
+                위해 각 화면마다 별도의 프로젝트 빌드 파일이 필요했고, 이미지,
+                폰트, 스타일 등의 공통 리소스도 많이 사용되었습니다.
               </div>
               <div>
-                이러한 상황에서 세 개의 레포지토리로 관리하는 것 보다는 개발속도 향상과 공통 리소스의 중복을 방지하기 위해 모노레포 구조를 채택했습니다. (사실 요즘 트렌드라고 해서 사용해보고 싶었었습니다.)
+                이러한 상황에서 세 개의 레포지토리로 관리하는 것 보다는 개발속도
+                향상과 공통 리소스의 중복을 방지하기 위해 모노레포 구조를
+                채택했습니다. (사실 요즘 트렌드라고 해서 사용해보고
+                싶었었습니다.)
               </div>
               <br />
               <div>
@@ -285,7 +293,7 @@ export default function Project() {
 
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
-          <ImageSlider images={coffeeLavitaImages} imageHeight="h-[300px]" />
+          <ImageSlider images={coffeeLavitaImages} imageHeight="h-[280px]" />
         </aside>
         <div className="w-full">
           <div className="w-full">
