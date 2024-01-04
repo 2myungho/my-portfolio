@@ -102,7 +102,7 @@ export default function Project() {
             <h3 className="text-2xl font-semibold">
               시청자 랭킹 확장 프로그램
             </h3>
-            <div className="text-[#76787A]">( 2023.11 ~ 진행중 )</div>
+            <div className="text-[#76787A]">( 2023.11 ~ 2023.12 )</div>
           </div>
           <br />
           <div className="lg:flex gap-x-10">
@@ -128,8 +128,7 @@ export default function Project() {
               <div>
                 이러한 상황에서 세 개의 레포지토리로 관리하는 것 보다는 개발속도
                 향상과 공통 리소스의 중복을 방지하기 위해 모노레포 구조를
-                채택했습니다. (사실 요즘 트렌드라고 해서 사용해보고
-                싶었었습니다.)
+                채택했습니다.
               </div>
               <br />
               <div>
@@ -141,7 +140,7 @@ export default function Project() {
               <div>
                 Notion:{" "}
                 <a href="https://laced-reward-1d6.notion.site/d53add72efc34705af742e0c69996a73?pvs=4">
-                  매뉴얼 URL
+                  기획 & 매뉴얼 URL
                 </a>
               </div>
               <div>Git: Private</div>
@@ -159,7 +158,7 @@ export default function Project() {
         <div className="w-full">
           <div className="w-full">
             <h3 className="text-2xl font-semibold">HUTDUL</h3>
-            <div className="text-[#76787A]">( 2023.03 ~ 진행중 )</div>
+            <div className="text-[#76787A]">( 2023.03 ~ ver3 진행중 )</div>
           </div>
           <br />
           <div className="lg:flex gap-x-10">
@@ -180,7 +179,7 @@ export default function Project() {
               </div>
               <div>
                 디자이너 친구와 매주 목요일 저녁에 기획과 UI/UX 회의를 진행하고,
-                Notion, Figma를 이용했습니다.
+                Notion, Figma를 이용하고 있습니다..
               </div>
               <div>
                 APP Store와 Google Play에 배포 되었으며, 사용자 피드백을 받아
