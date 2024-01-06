@@ -45,10 +45,12 @@ export default function AboutMe() {
               </a>
             </div>
           </div>
-          <div className="bg-[#f2f2f2] pl-2 pr-10 py-1 rounded-md flex items-center gap-x-1">
-            <BsPhone />
-            문의 사항은 이메일로 연락 부탁드립니다.
-          </div>
+          {isPublic && (
+            <div className="bg-[#f2f2f2] pl-2 pr-10 py-1 rounded-md flex items-center gap-x-1">
+              <BsPhone />
+              문의 사항은 이메일로 연락 부탁드립니다.
+            </div>
+          )}
         </div>
       </article>
     </section>
