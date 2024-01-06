@@ -1,7 +1,6 @@
-import Image from "next/image";
-import styles from './Home.module.css';
-import Introduce from "./section/Introduce";
+import ContentsHeader from "./section/ContentsHeader";
 import AboutMe from "./section/AboutMe";
+import Introduce from "./section/Introduce";
 import Project from "./section/Project";
 import WorkExperience from "./section/WorkExperience";
 import Skill from "./section/Skill";
@@ -18,10 +17,10 @@ export default function Home() {
       {/* Main content 영역 */}
       <div className="flex-grow flex justify-center py-20">
         <main className="flex w-full px-4 md:w-[720px] lg:w-[900px] xl:w-[1040px] flex-col">
-
           {/* Main content */}
-          <Introduce />
+          {/* <ContentsHeader /> */}
           <AboutMe />
+          <Introduce />
           <WorkExperience />
           <Project />
           <Skill />
@@ -30,8 +29,7 @@ export default function Home() {
       </div>
 
       {/* Footer 영역 */}
-      <footer className="bg-blue-500 h-[20px]">
-      </footer>
+      <footer className="bg-blue-500 h-[20px]"></footer>
     </div>
   );
 }

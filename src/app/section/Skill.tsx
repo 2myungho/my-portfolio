@@ -68,18 +68,19 @@ const frontEnd: ArticleType = {
   title: "Front-end",
   items: [
     "React.js",
+    "Typescript",
     "Next.js",
     "Vue.js",
     "Javascript",
     "Html / Css",
     "React Native",
   ],
-  levels: [3, 2, 2, 3, 3, 2],
+  levels: [3, 2, 2, 2, 3, 3, 2],
 };
 const backEnd: ArticleType = {
   title: "Back-end",
-  items: ["Node.js", "Typescript", "Express", "Java", "Spring Boot"],
-  levels: [2, 2, 2, 1, 1],
+  items: ["Node.js", "Express", "Java", "Spring Boot"],
+  levels: [2, 2, 1, 1],
 };
 const etc: ArticleType = {
   title: "ETC",

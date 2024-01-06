@@ -7,14 +7,20 @@
   display: flex;
   align-items: center;
 }
+.firstSectionTitle {
+  margin: 0 0 3rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
 
 .bulletSquare {
   height: 40px;
   width: 6px;
-  background-color: #1664FF;
+  background-color: #1664ff;
   margin-right: 20px;
 }
 
 .hr {
-  padding: 1rem 0
+  padding: 1rem 0;
 }
