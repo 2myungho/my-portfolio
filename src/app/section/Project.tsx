@@ -94,7 +94,7 @@ export default function Project() {
         <h2>Project</h2>
       </div>
       <article className="lg:flex gap-x-10 mb-8">
-        <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
+        <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
           <ImageSlider images={rankImages} imageHeight="h-[220px]" />
         </aside>
         <div className="w-full">
@@ -105,6 +105,9 @@ export default function Project() {
             <div className="text-[#76787A]">( 2023.11 ~ 2023.12 )</div>
           </div>
           <br />
+          <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
+            <ImageSlider images={rankImages} imageHeight="h-[220px]" />
+          </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
               <div>
@@ -152,7 +155,7 @@ export default function Project() {
       <hr className={styles.hr} />
 
       <article className="lg:flex gap-x-10 mb-8">
-        <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
+        <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
           <ImageSlider images={hutdulImages} imageHeight="h-[400px]" />
         </aside>
         <div className="w-full">
@@ -161,6 +164,9 @@ export default function Project() {
             <div className="text-[#76787A]">( 2023.03 ~ ver3. 진행중 )</div>
           </div>
           <br />
+          <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
+            <ImageSlider images={hutdulImages} imageHeight="h-[400px]" />
+          </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
               <div>&quot;매번 친구랑 못하는 운동 헛둘과 함께하자!&quot;</div>
@@ -207,7 +213,7 @@ export default function Project() {
       <hr className={styles.hr} />
 
       <article className="lg:flex gap-x-10 mb-8">
-        <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
+        <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
           <ImageSlider images={portfoliImages} imageHeight="h-[300px]" />
         </aside>
         <div className="w-full">
@@ -216,6 +222,9 @@ export default function Project() {
             <div className="text-[#76787A]">( 2023.08 ~ 2023.08 )</div>
           </div>
           <br />
+          <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
+            <ImageSlider images={portfoliImages} imageHeight="h-[300px]" />
+          </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
               <div>Nextjs 학습을 목적으로 제작한 포트폴리오 페이지입니다.</div>
@@ -241,7 +250,7 @@ export default function Project() {
       <hr className={styles.hr} />
 
       <article className="lg:flex gap-x-10 mb-8">
-        <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
+        <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
           <ImageSlider images={planitImages} imageHeight="h-[300px]" />
         </aside>
         <div className="w-full">
@@ -250,6 +259,9 @@ export default function Project() {
             <div className="text-[#76787A]">( 2020.09 ~ 2020.12 )</div>
           </div>
           <br />
+          <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
+            <ImageSlider images={planitImages} imageHeight="h-[300px]" />
+          </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
               <div>
@@ -291,7 +303,7 @@ export default function Project() {
       <hr className={styles.hr} />
 
       <article className="lg:flex gap-x-10 mb-8">
-        <aside className="w-full mb-6 lg:w-3/5 lg:mb-0">
+        <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
           <ImageSlider images={coffeeLavitaImages} imageHeight="h-[280px]" />
         </aside>
         <div className="w-full">
@@ -303,6 +315,9 @@ export default function Project() {
             </div>
           </div>
           <br />
+          <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
+            <ImageSlider images={coffeeLavitaImages} imageHeight="h-[280px]" />
+          </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
               <div>
