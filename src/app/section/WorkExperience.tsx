@@ -31,7 +31,7 @@ export default function WorkExperience() {
           <br />
           <div>
             <div>
-              기본적으로는 웹프론트엔드를 담당했으며, Nodejs기반의 API서버를
+              기본적으로는 웹프론트엔드를 담당했으며, Nodejs기반의 BFF서버를
               담당하기도 했습니다.
             </div>
             <div>

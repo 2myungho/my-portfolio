@@ -158,7 +158,7 @@ export default function Project() {
         <div className="w-full">
           <div className="w-full">
             <h3 className="text-2xl font-semibold">HUTDUL</h3>
-            <div className="text-[#76787A]">( 2023.03 ~ ver3 진행중 )</div>
+            <div className="text-[#76787A]">( 2023.03 ~ ver3. 진행중 )</div>
           </div>
           <br />
           <div className="lg:flex gap-x-10">
