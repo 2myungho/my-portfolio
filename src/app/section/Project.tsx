@@ -60,12 +60,29 @@ export function ImageSlider({ images, imageHeight }: ImageSliderProps) {
 }
 
 export default function Project() {
+  const totalExtensionImages = [
+    "/img/rank_1.jpg",
+    "/img/rank_2.jpg",
+    "/img/rank_3.jpg",
+    "/img/rank_4.jpg",
+    "/img/rank_5.jpg",
+    "/img/ox_1.png",
+    "/img/ox_2.png",
+    "/img/ox_3.png",
+    "/img/ox_4.png",
+  ];
   const rankImages = [
     "/img/rank_1.jpg",
     "/img/rank_2.jpg",
     "/img/rank_3.jpg",
     "/img/rank_4.jpg",
     "/img/rank_5.jpg",
+  ];
+  const oxImages = [
+    "/img/ox_1.png",
+    "/img/ox_2.png",
+    "/img/ox_3.png",
+    "/img/ox_4.png",
   ];
   const hutdulImages = [
     "/img/hutdul_1.jpg",
@@ -95,18 +112,26 @@ export default function Project() {
       </div>
       <article className="lg:flex gap-x-10 mb-8">
         <aside className="hidden w-full mb-6 lg:w-3/5 lg:mb-0 lg:block">
-          <ImageSlider images={rankImages} imageHeight="h-[220px]" />
+          <div>
+            <ImageSlider images={rankImages} imageHeight="h-[220px]" />
+          </div>
+          <div>
+            <ImageSlider images={oxImages} imageHeight="h-[220px]" />
+          </div>
         </aside>
         <div className="w-full">
           <div className="w-full">
             <h3 className="text-2xl font-semibold">
-              시청자 랭킹 확장 프로그램
+              아프리카TV 확장프로그램 공모전
             </h3>
             <div className="text-[#76787A]">( 2023.11 ~ 2023.12 )</div>
           </div>
           <br />
           <aside className="w-full mb-6 lg:w-3/5 lg:mb-0 md:block lg:hidden">
-            <ImageSlider images={rankImages} imageHeight="h-[220px]" />
+            <ImageSlider
+              images={totalExtensionImages}
+              imageHeight="h-[220px]"
+            />
           </aside>
           <div className="lg:flex gap-x-10">
             <div className="w-full">
@@ -134,17 +159,55 @@ export default function Project() {
                 채택했습니다.
               </div>
               <br />
+
               <div>
-                Extension Market:{" "}
-                <a href="https://extension.afreecatv.com/detail.php?ext_id=56ee32e433c49bb4843a3c74d89eab4c&develop=false">
-                  시청자 랭킹 확장프로그램 URL
-                </a>
+                시청자 랭킹:{" "}
+                <div className="ml-6">
+                  <a
+                    href="https://extension.afreecatv.com/detail.php?ext_id=56ee32e433c49bb4843a3c74d89eab4c&develop=false"
+                    target="_blank"
+                  >
+                    Extension Market
+                  </a>
+                </div>
+                <div className="ml-6">
+                  <a
+                    href="https://laced-reward-1d6.notion.site/d53add72efc34705af742e0c69996a73?pvs=4"
+                    target="_blank"
+                  >
+                    기획 & 매뉴얼 URL
+                  </a>
+                </div>
+                <div className="ml-6">
+                  <a href="https://www.fmkorea.com/6497564483" target="_blank">
+                    커뮤니티 반응
+                  </a>
+                </div>
               </div>
+
               <div>
-                Notion:{" "}
-                <a href="https://laced-reward-1d6.notion.site/d53add72efc34705af742e0c69996a73?pvs=4">
-                  기획 & 매뉴얼 URL
-                </a>
+                OX 퀴즈:{" "}
+                <div className="ml-6">
+                  <a
+                    href="https://extension.afreecatv.com/detail.php?ext_id=3bd729084d2e9fb705b73f1b88e272d8&version=1.2.0&develop=false"
+                    target="_blank"
+                  >
+                    Extension Market
+                  </a>
+                </div>
+                <div className="ml-6">
+                  <a
+                    href="https://extension.afreecatv.com/detail.php?ext_id=56ee32e433c49bb4843a3c74d89eab4c&develop=false"
+                    target="_blank"
+                  >
+                    기획 & 매뉴얼 URL
+                  </a>
+                </div>
+                <div className="ml-6">
+                  <a href="https://www.fmkorea.com/6497012517" target="_blank">
+                    커뮤니티 반응
+                  </a>
+                </div>
               </div>
               <div>Git: Private</div>
               <div>Tech: React, Recoil, 아프리카TV SDK, Monorepo</div>
@@ -194,13 +257,19 @@ export default function Project() {
               <br />
               <div>
                 IOS:{" "}
-                <a href="https://apps.apple.com/kr/app/%ED%97%9B%EB%91%98-%EC%9A%B4%EB%8F%99-%EC%9D%8C%EC%84%B1-%ED%83%80%EC%9D%B4%EB%A8%B8/id6450903261">
+                <a
+                  href="https://apps.apple.com/kr/app/%ED%97%9B%EB%91%98-%EC%9A%B4%EB%8F%99-%EC%9D%8C%EC%84%B1-%ED%83%80%EC%9D%B4%EB%A8%B8/id6450903261"
+                  target="_blank"
+                >
                   App Store URL
                 </a>
               </div>
               <div>
                 Android:{" "}
-                <a href="https://play.google.com/store/apps/details?id=com.hutdul&pcampaignid=web_share">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.hutdul&pcampaignid=web_share"
+                  target="_blank"
+                >
                   Google Play URL
                 </a>
               </div>
@@ -237,7 +306,10 @@ export default function Project() {
               <br />
               <div>
                 Git:{" "}
-                <a href="https://github.com/2myungho/my-portfolio">
+                <a
+                  href="https://github.com/2myungho/my-portfolio"
+                  target="_blank"
+                >
                   {" "}
                   Git README{" "}
                 </a>
@@ -288,7 +360,10 @@ export default function Project() {
               <br />
               <div>
                 Git:{" "}
-                <a href="https://github.com/2myungho/Planit-Project">
+                <a
+                  href="https://github.com/2myungho/Planit-Project"
+                  target="_blank"
+                >
                   {" "}
                   Git README{" "}
                 </a>
@@ -351,7 +426,10 @@ export default function Project() {
               <br />
               <div>
                 Git:{" "}
-                <a href="https://github.com/2myungho/CoffeeLavita_Project">
+                <a
+                  href="https://github.com/2myungho/CoffeeLavita_Project"
+                  target="_blank"
+                >
                   {" "}
                   Git README{" "}
                 </a>
