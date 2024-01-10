@@ -197,7 +197,7 @@ export default function Project() {
                 </div>
                 <div className="ml-6">
                   <a
-                    href="https://extension.afreecatv.com/detail.php?ext_id=56ee32e433c49bb4843a3c74d89eab4c&develop=false"
+                    href="https://green-chipmunk-3f6.notion.site/OX-d77e58c5b7c94cf88734d10c280c8d7b"
                     target="_blank"
                   >
                     기획 & 매뉴얼 URL
